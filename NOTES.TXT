@@ -10,4 +10,4 @@ minikube tunnel
 
 kubectl delete -f ./
 
-curl.exe -X POST -F 'file=@./test.mp4' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNodWJoQGdtYWlsLmNvbSIsImV4cCI6MTY5OTk3MDAxOSwiaWF0IjoxNjk5ODgzNjE5LCJhZG1pbiI6dHJ1ZX0.QW7PtbHiXLrM-fPrGmq_RWbjUbC4QXjrUxBuMiGwncQ' http://mp3converter.com/upload
+curl.exe -X POST -F 'file=@./test.mp4' -H 'Authorization: Bearer somethng' http://mp3converter.com/upload
